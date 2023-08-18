@@ -16,7 +16,7 @@ process.nextTick(() => {
 
 setTimeout(() => {
   console.log('Кто не верит –');
-},15);
+},14);
 setImmediate(() => {
   console.log('Ехал слон.');
 });
