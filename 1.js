@@ -1,6 +1,6 @@
-setTimeout(() => {
+setImmediate(() => {
   console.log('Был диван,');
-},0);
+});
 
 setTimeout(() => {
   console.log('Выйди вон!');
